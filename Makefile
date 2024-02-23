@@ -24,8 +24,11 @@ routes:
 
 
 
+status:
+	docker compose ps
+
 stop:
-	docker compose exec stop
+	docker compose stop
 
 clean:
-	docker compose exec down
+	docker compose down
